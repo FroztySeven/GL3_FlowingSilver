@@ -18,11 +18,17 @@ EditorBuildSettings:
     path: Assets/Scenes/_lvl_Block/Town_Block.unity
     guid: 1d83dffe9ab21524b8f86fa4c7ad30a5
   - enabled: 1
-    path: Assets/Scenes/_lvl_Block/Farm_Block.unity
-    guid: 88f3f828197be4744be85c56601a1c0c
+    path: Assets/Scenes/_lvl_Block/Farm_Lvl.unity
+    guid: 743499aeda6f8f64a88c23b64f1902ef
+  - enabled: 1
+    path: Assets/Scenes/_lvl_Block/DriedOutRiver_Block.unity
+    guid: 289f4dacf74722b4b9c4b8af4b90baf9
   - enabled: 0
     path: Assets/Scenes/_lvl_Block/Town_Centeral_Road_Block.unity
     guid: 85fe58d39dc1a834db58c9ea0b69e71b
+  - enabled: 0
+    path: Assets/Scenes/_lvl_Block/Farm_Block.unity
+    guid: 88f3f828197be4744be85c56601a1c0c
   - enabled: 0
     path: Assets/Scenes/_lvl_Block/GameHub.unity
     guid: 6eb2f56727e0cd544b9f607659a8984c
