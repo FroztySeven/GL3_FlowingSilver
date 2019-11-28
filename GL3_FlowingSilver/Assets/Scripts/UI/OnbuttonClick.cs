@@ -190,6 +190,9 @@ public class OnbuttonClick : MonoBehaviour
 
         }
 
+
+        buttonInstructions_obj.SetActive(true);
+        topPanel_obj.SetActive(true);
         BarrelFill.waterLevel = 0;
 
         fWW.BucketFilled = false;
