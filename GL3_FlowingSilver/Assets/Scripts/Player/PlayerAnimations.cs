@@ -61,6 +61,7 @@ public class PlayerAnimations : MonoBehaviour
                     
                     GetComponent<BasicWalkerController>().movementSpeed = walkSpeed;
                     GetComponent<Animator>().SetBool("isSprinting", false);
+                    isRunning = false;
                 }
             }
         }
