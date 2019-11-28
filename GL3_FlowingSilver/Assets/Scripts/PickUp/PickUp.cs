@@ -25,6 +25,8 @@ public class PickUp : MonoBehaviour
     private Collider boxcol;
     private ParticleSystem bcpc;
     private bool hasThrown = false;
+    private AudioSource bcaudio;
+    public AudioClip throwsound;
 
     [HideInInspector] public Text pickUpText;
 
@@ -47,6 +49,10 @@ public class PickUp : MonoBehaviour
         cM = Player.gameObject.GetComponent<PlayerAnimations>();
         Player = GameObject.Find("ModelRoot").GetComponent<Transform>();
         parent = GameObject.Find("child_v03");
+        bcaudio = GetComponent<AudioSource>();
+
+
+
         if (GameObject.FindGameObjectsWithTag(gameObject.tag).Length > 1)
         {
             Destroy(gameObject);
@@ -184,6 +190,7 @@ public class PickUp : MonoBehaviour
         spherecol.enabled = true;
         boxcol.enabled = true;
         rb = gameObject.AddComponent<Rigidbody>();
+        bcaudio.PlayOneShot(throwsound);
         bcpc.Play();
         rb.AddForce(Player.transform.forward * Forward, ForceMode.Impulse);
         rb.AddForce(Player.transform.up * Upwards, ForceMode.Impulse);
