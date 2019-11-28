@@ -19,12 +19,19 @@ public class HomeManage : MonoBehaviour
     public static float _waterAmount;
     public float watertobe;
 
+
+
+    AudioClip waterDeliverClip;
+    AudioSource sfxAudioSource;
+
     private void Start()
     {
         waterAmount.text = (int)_waterAmount + "%";
         tPOC = GameObject.Find("PlayerController").GetComponentInChildren<CameraController>();
         Obc = GameObject.Find("SceneEssentials").GetComponent<OnbuttonClick>();
         Fww = GameObject.Find("Bucket").GetComponent<FillWithWater>();
+        sfxAudioSource = GameObject.FindWithTag("SFXAudio").GetComponent<AudioSource>();
+        waterDeliverClip = Resources.Load("SFX/Water_Deliver") as AudioClip;
         waterslider = GameObject.Find("WaterAmountSlider").GetComponent<Slider>();
         waterslider.minValue = 0;
         waterslider.maxValue = 200;
@@ -32,6 +39,7 @@ public class HomeManage : MonoBehaviour
         playerenter = false;
     }
 
+    bool playWaterClipOnce = false;
     private void Update()
     {
 
@@ -45,12 +53,18 @@ public class HomeManage : MonoBehaviour
             if(_waterAmount <= watercotnroll)
             {
                 _waterAmount += watertobe * Time.deltaTime;
+                if (!playWaterClipOnce)
+                {
+                    sfxAudioSource.PlayOneShot(waterDeliverClip);
+                    playWaterClipOnce = true;
+                }
             }
 
             else if (_waterAmount >= watercotnroll)
             {
                 watertobe = 0;
                 playerenter = false;
+                playWaterClipOnce = false;
             }
 
 
