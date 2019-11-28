@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 112000000, guid: cc9e36e7df878a949b8ed1b297765b6f,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2672,7 +2672,7 @@ GameObject:
   - component: {fileID: 196546584}
   m_Layer: 0
   m_Name: Water (3)
-  m_TagString: Untagged
+  m_TagString: WaterSource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4163,7 +4163,7 @@ GameObject:
   - component: {fileID: 428692251}
   m_Layer: 0
   m_Name: Water (1)
-  m_TagString: Untagged
+  m_TagString: WaterSource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10147,7 +10147,7 @@ GameObject:
   - component: {fileID: 1001648877}
   m_Layer: 0
   m_Name: Water (2)
-  m_TagString: Untagged
+  m_TagString: WaterSource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14269,8 +14269,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.4018005
-  m_Center: {x: 0.47255552, y: 0, z: -2.9273047}
+  m_Radius: 2.555275
+  m_Center: {x: 0.4725566, y: 0.46783018, z: -2.4271302}
 --- !u!1001 &1584250925
 PrefabInstance:
   m_ObjectHideFlags: 0
