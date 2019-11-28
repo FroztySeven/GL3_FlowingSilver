@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ObjTest
+  m_Shader: {fileID: -6465566751694194690, guid: 0e880e5f34840944b95e0869254347de,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_2661FD5C: -1
+    - Vector1_3340A784: 1
+    - Vector1_A3250E1D: 5
+    - Vector1_DF891ADE: 1
+    - Vector1_F11FACF1: 0.5
+    m_Colors:
+    - Color_BF67386C: {r: 1, g: 1, b: 1, a: 0}
+    - Color_F029585C: {r: 0, g: 0.532712, b: 1, a: 1}
