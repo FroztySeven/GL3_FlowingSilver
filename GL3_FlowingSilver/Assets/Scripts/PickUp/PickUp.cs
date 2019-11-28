@@ -27,6 +27,7 @@ public class PickUp : MonoBehaviour
     private bool hasThrown = false;
     private AudioSource bcaudio;
     public AudioClip throwsound;
+    public AudioClip pickupClip;
 
     [HideInInspector] public Text pickUpText;
 
@@ -172,6 +173,7 @@ public class PickUp : MonoBehaviour
         InRange = false;
         spherecol.enabled = false;
         boxcol.enabled = false;
+        bcaudio.PlayOneShot(pickupClip);
         bcpc.Stop();
         this.transform.parent = Player.transform;
         transform.position = new Vector3(onHand.transform.position.x, onHand.transform.position.y, onHand.transform.position.z);

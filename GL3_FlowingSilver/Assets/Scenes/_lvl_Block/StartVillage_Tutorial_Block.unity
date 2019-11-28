@@ -18643,6 +18643,11 @@ PrefabInstance:
       propertyPath: throwsound
       value: 
       objectReference: {fileID: 8300000, guid: 078f52399623f5743a7caf2add0afd23, type: 3}
+    - target: {fileID: 6871902028737854475, guid: b540494b25eabf34c83aa32294b6ceee,
+        type: 3}
+      propertyPath: pickupClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f029a5e7908bf704f82192c2c8ab8c36, type: 3}
     - target: {fileID: 3205449586358288236, guid: b540494b25eabf34c83aa32294b6ceee,
         type: 3}
       propertyPath: m_IsActive
