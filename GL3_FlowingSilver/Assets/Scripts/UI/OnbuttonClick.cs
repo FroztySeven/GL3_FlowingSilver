@@ -113,7 +113,7 @@ public class OnbuttonClick : MonoBehaviour
         BarrelFill.waterLevel = 0;
         HomeManage._waterAmount = 0;
         SceneManager.LoadScene("Menu");
-
+        AudioListener.pause = false;
         DisableHelicopter();
 
     }
@@ -132,7 +132,7 @@ public class OnbuttonClick : MonoBehaviour
         fWW.BucketFilled = false;
         HealthSystem.ResetHealth();
         //WinScreen.SetActive(false);
-        
+        AudioListener.pause = false;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         WinScreen.SetActive(false);
@@ -165,7 +165,7 @@ public class OnbuttonClick : MonoBehaviour
         FillWithWater.water = 0;
         fWW.BucketFilled = false;
         HealthSystem.ResetHealth();
-
+        AudioListener.pause = false;
         Mb.enabled = true;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -177,7 +177,7 @@ public class OnbuttonClick : MonoBehaviour
         Player.transform.position = spawnpoint.transform.position;
         Player.transform.rotation = spawnpoint.transform.rotation;
 
-
+        AudioListener.pause = false;
         FillWithWater.water = 0;
         HealthSystem.ResetHealth();
         if (!PickUp.InHand)
