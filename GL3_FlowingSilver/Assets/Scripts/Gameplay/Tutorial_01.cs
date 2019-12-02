@@ -104,4 +104,11 @@ public class Tutorial_01 : MonoBehaviour
     {
         HidePanel();
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        txtBox.transform.parent.gameObject.SetActive(true);
+        txtBox.text = "Press 'C' to crawl";
+        GetComponent<BoxCollider>().enabled = false;
+    }
 }
