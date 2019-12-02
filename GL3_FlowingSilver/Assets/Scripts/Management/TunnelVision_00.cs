@@ -7,9 +7,12 @@ public class TunnelVision_00 : MonoBehaviour
 {
     Vignette vingette = null;
 
+    PostProcessVolume volume;
+    float red, green, blue;
+
     private void Start()
     {
-        PostProcessVolume volume = GetComponent<PostProcessVolume>();
+        volume = GetComponent<PostProcessVolume>();
         volume.profile.TryGetSettings(out vingette);
     }
 
