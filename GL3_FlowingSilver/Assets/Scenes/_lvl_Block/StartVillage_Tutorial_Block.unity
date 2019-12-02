@@ -7711,7 +7711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c78886efb5e570240834ad85c66c00f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RiverWater: 200
+  RiverWater: 20
   InsideResource: 0
   fWW: {fileID: 0}
   wSS: {fileID: 0}
