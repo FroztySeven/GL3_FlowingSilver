@@ -7,6 +7,7 @@ public class AIDie : MonoBehaviour
     public List<GameObject> aiToRotate;
     public List<Quaternion> rotation;
     public List<ShootForwardAtInterval> rotatedAndKilled;
+    public List<GameObject> guns;
 
     public ShootForwardAtInterval[] survived;
     public float interval;
@@ -52,6 +53,8 @@ public class AIDie : MonoBehaviour
         aiToRotate.Remove(aiToRotate[randAI]);
         rotatedAndKilled[randAI].enabled = false;
         rotatedAndKilled.Remove(rotatedAndKilled[randAI]);
+        guns[randAI].SetActive(false);
+        guns.Remove(guns[randAI]);
 
         if (aiToRotate.Count == 0)
         {
