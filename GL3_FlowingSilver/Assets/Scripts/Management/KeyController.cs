@@ -38,6 +38,12 @@ public class KeyController : MonoBehaviour
     private float farm_block_resetCounter;
     private int farm_block_letterCounter;
 
+    private string riverBlockWord;
+    private string river_block_writtenWord;
+    private bool river_block_firstLetter = true;
+    private float river_block_resetCounter;
+    private int river_block_letterCounter;
+
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +56,7 @@ public class KeyController : MonoBehaviour
         tutorialBlockWord = "tutorial";
         townBlockWord = "town";
         farmBlockWord = "farm";
+        riverBlockWord = "river";
         cheatText.enabled = false;
     }
 
@@ -222,6 +229,48 @@ public class KeyController : MonoBehaviour
                 farm_block_writtenWord = "";
             }
         }
+
+        // Typing "river" or not
+        if (Input.anyKeyDown)
+        {
+            if (Input.inputString == riverBlockWord[river_block_letterCounter].ToString())
+            {
+                river_block_writtenWord += Input.inputString;
+                river_block_letterCounter++;
+                print(river_block_writtenWord);
+            }
+
+            if (river_block_firstLetter)
+            {
+                river_block_resetCounter = resetTime;
+                river_block_firstLetter = false;
+            }
+
+            for (int i = 0; i < farmBlockWord.Length; i++)
+            {
+                if (riverBlockWord == river_block_writtenWord)
+                {
+                    cheatText.text = "RIVER";
+                    cheatText.enabled = true;
+                    GetComponent<Animator>().SetTrigger("SetAnim");
+                    sfxAudioSource.PlayOneShot(cheatClip);
+
+                    StartCoroutine("CallRiverBlockMap");
+                    StartCoroutine("ResetTimer");
+                }
+            }
+        }
+
+        if (!river_block_firstLetter)
+        {
+            river_block_resetCounter = Mathf.MoveTowards(river_block_resetCounter, 0, Time.deltaTime);
+            if (river_block_resetCounter == 0)
+            {
+                river_block_firstLetter = true;
+                river_block_letterCounter = 0;
+                river_block_writtenWord = "";
+            }
+        }
     }
 
 
@@ -248,6 +297,15 @@ public class KeyController : MonoBehaviour
         SceneManager.LoadScene(4);
         yield return new WaitForSeconds(0.2f);
         GameObject.FindWithTag("Player").transform.position = originalPlayerPos + (transform.up * 12f);
+
+        StopCoroutine("CallFarmBlockMap");
+    }
+    IEnumerator CallRiverBlockMap()
+    {
+        yield return new WaitForSeconds(0.4f);
+        SceneManager.LoadScene(5);
+        yield return new WaitForSeconds(0.2f);
+        GameObject.FindWithTag("Player").transform.position = originalPlayerPos + (transform.up * 10f);
 
         StopCoroutine("CallFarmBlockMap");
     }
