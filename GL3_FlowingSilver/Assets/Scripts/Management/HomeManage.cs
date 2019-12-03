@@ -34,7 +34,7 @@ public class HomeManage : MonoBehaviour
         waterDeliverClip = Resources.Load("SFX/Water_Deliver") as AudioClip;
         waterslider = GameObject.Find("WaterAmountSlider").GetComponent<Slider>();
         waterslider.minValue = 0;
-        waterslider.maxValue = 200;
+        waterslider.maxValue = 250;
         
         playerenter = false;
     }
@@ -90,7 +90,7 @@ public class HomeManage : MonoBehaviour
         //Debug.Log("slider value " + waterslider.value);
 
 
-        if (_waterAmount >= 200 && _waterAmount <= watercotnroll)
+        if (_waterAmount >= 250 && _waterAmount <= watercotnroll)
         {
             Time.timeScale = 0;
             Obc.WinScreen.SetActive(true);

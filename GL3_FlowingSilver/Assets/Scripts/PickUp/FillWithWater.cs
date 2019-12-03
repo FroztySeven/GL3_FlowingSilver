@@ -149,7 +149,7 @@ public class FillWithWater : MonoBehaviour
 
 
 
-        Debug.Log("max bucket water " + MaxBcWater);
+
 
         //setting the slider value
         if (PickUp.InHand)
