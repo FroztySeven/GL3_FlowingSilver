@@ -50,28 +50,28 @@ LightmapSettings:
     m_BounceScale: 1
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
-    m_EnvironmentLightingMode: 0
+    m_EnvironmentLightingMode: 1
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
     serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
-    m_AO: 0
+    m_AtlasSize: 128
+    m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
     m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
-    m_LightmapsBakeMode: 1
+    m_LightmapsBakeMode: 0
     m_TextureCompression: 1
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
-    m_MixedBakeMode: 2
+    m_MixedBakeMode: 0
     m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
@@ -132,6 +132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -362,6 +367,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5891103715111116693, guid: c4b9a497561faa54483d9b228a3cbbea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3582671103396229065, guid: c4b9a497561faa54483d9b228a3cbbea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -445,6 +455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -566,7 +581,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &38989643
 Transform:
@@ -601,8 +616,11 @@ Transform:
   - {fileID: 671603999}
   - {fileID: 2102004691}
   - {fileID: 837634846}
+  - {fileID: 159719911}
+  - {fileID: 185287750}
+  - {fileID: 782437140}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &42367651 stripped
 GameObject:
@@ -641,6 +659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -882,6 +905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3256776317632192579, guid: ab21aa627dc0d4242b677180817f2086,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7173120002816577371, guid: ab21aa627dc0d4242b677180817f2086,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1005,6 +1033,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
@@ -1180,10 +1213,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -1330,10 +1368,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -1353,6 +1396,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -1444,6 +1492,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock04 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1533,6 +1586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
@@ -1689,6 +1747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -1883,6 +1946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1960,7 +2028,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 38989643}
     m_Modifications:
     - target: {fileID: 5988421705734601886, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
@@ -1985,27 +2053,27 @@ PrefabInstance:
     - target: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.2082556
+      value: -0.20825562
       objectReference: {fileID: 0}
     - target: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.11052384
+      value: 0.11052385
       objectReference: {fileID: 0}
     - target: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.815954
+      value: 0.8159541
       objectReference: {fileID: 0}
     - target: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.527857
+      value: 0.52785707
       objectReference: {fileID: 0}
     - target: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
@@ -2024,6 +2092,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 559c2adfa87bd0b4c81027fbd8a13df1, type: 3}
+--- !u!4 &159719911 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
+    type: 3}
+  m_PrefabInstance: {fileID: 159719910}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &166432504
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,7 +2126,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &176502350
 PrefabInstance:
@@ -2065,6 +2139,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -2156,6 +2235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2245,6 +2329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -2418,12 +2507,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 38989643}
     m_Modifications:
     - target: {fileID: 2747251343941678020, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
       propertyPath: m_Name
       value: TallGrass
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747251343941678020, guid: 044b362375f83fc4099771cf39653520,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
@@ -2463,7 +2557,7 @@ PrefabInstance:
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
@@ -2483,20 +2577,26 @@ PrefabInstance:
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.019
+      value: 2.0190005
       objectReference: {fileID: 0}
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.019
+      value: 2.019001
       objectReference: {fileID: 0}
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.019
+      value: 2.019001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044b362375f83fc4099771cf39653520, type: 3}
+--- !u!4 &185287750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
+    type: 3}
+  m_PrefabInstance: {fileID: 185287749}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &186192057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2508,6 +2608,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -2779,7 +2884,7 @@ Transform:
   m_Children:
   - {fileID: 146349302}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
 --- !u!1001 &197414860
 PrefabInstance:
@@ -2792,6 +2897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TallGrass
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747251343941678020, guid: 044b362375f83fc4099771cf39653520,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
@@ -2964,6 +3074,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (37)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3113,6 +3228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (20)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3202,6 +3322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock05 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6381969173092602234, guid: 174b014e6aa9eff4d9e2fc816fd10863,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2178051751836812008, guid: 174b014e6aa9eff4d9e2fc816fd10863,
         type: 3}
@@ -3309,6 +3434,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WildOak01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7350918989924447736, guid: f913041faf2a6974397abf1e187a3aec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6976165338466773459, guid: f913041faf2a6974397abf1e187a3aec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3392,6 +3522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -3560,7 +3695,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &295378027
 MonoBehaviour:
@@ -3591,6 +3726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256776317632192579, guid: ab21aa627dc0d4242b677180817f2086,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7173120002816577371, guid: ab21aa627dc0d4242b677180817f2086,
         type: 3}
@@ -3713,6 +3853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256776317632192579, guid: ab21aa627dc0d4242b677180817f2086,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7173120002816577371, guid: ab21aa627dc0d4242b677180817f2086,
         type: 3}
@@ -3898,10 +4043,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -4283,7 +4433,7 @@ Transform:
   m_Children:
   - {fileID: 843316366}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
 --- !u!1 &436259830
 GameObject:
@@ -4326,6 +4476,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -4515,7 +4670,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &455969980
 Transform:
@@ -4565,7 +4720,7 @@ Transform:
   - {fileID: 959088597}
   - {fileID: 680470531}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &456730602
 PrefabInstance:
@@ -4578,6 +4733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -4675,6 +4835,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock04 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4758,6 +4923,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -5000,6 +5170,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256776317632192579, guid: ab21aa627dc0d4242b677180817f2086,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7173120002816577371, guid: ab21aa627dc0d4242b677180817f2086,
         type: 3}
@@ -5274,10 +5449,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -5646,6 +5826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5800,6 +5985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (32)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5923,7 +6113,7 @@ Transform:
   - {fileID: 458753507}
   - {fileID: 331930407}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &576482609 stripped
 GameObject:
@@ -5955,6 +6145,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -6253,6 +6448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (33)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6355,6 +6555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock04 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6439,6 +6644,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6522,6 +6732,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WildOak01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350918989924447736, guid: f913041faf2a6974397abf1e187a3aec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6976165338466773459, guid: f913041faf2a6974397abf1e187a3aec,
         type: 3}
@@ -6713,10 +6928,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -6906,6 +7126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891103715111116693, guid: c4b9a497561faa54483d9b228a3cbbea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3582671103396229065, guid: c4b9a497561faa54483d9b228a3cbbea,
         type: 3}
@@ -7127,7 +7352,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &732978937
 Transform:
@@ -7187,7 +7412,7 @@ Transform:
   - {fileID: 598920531}
   - {fileID: 15238855}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &735580917
 PrefabInstance:
@@ -7200,6 +7425,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
@@ -7449,6 +7679,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6381969173092602234, guid: 174b014e6aa9eff4d9e2fc816fd10863,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2178051751836812008, guid: 174b014e6aa9eff4d9e2fc816fd10863,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7592,6 +7827,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6617883308806560967, guid: f1884f5587c8d16439bbfb8ddf9907bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7561598704174979012, guid: f1884f5587c8d16439bbfb8ddf9907bf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7681,6 +7921,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -7788,14 +8033,14 @@ Transform:
   - {fileID: 1493002838}
   - {fileID: 1521428306}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &782437139
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 38989643}
     m_Modifications:
     - target: {fileID: 5988421705734601886, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
@@ -7840,7 +8085,7 @@ PrefabInstance:
     - target: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
         type: 3}
@@ -7859,6 +8104,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 559c2adfa87bd0b4c81027fbd8a13df1, type: 3}
+--- !u!4 &782437140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7295967773767388813, guid: 559c2adfa87bd0b4c81027fbd8a13df1,
+    type: 3}
+  m_PrefabInstance: {fileID: 782437139}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &792963223 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
@@ -7922,6 +8173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310569438841616618, guid: 740b78c3987c478489eb75787e2d66be,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6751942419091164722, guid: 740b78c3987c478489eb75787e2d66be,
         type: 3}
@@ -7996,6 +8252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891103715111116693, guid: c4b9a497561faa54483d9b228a3cbbea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3582671103396229065, guid: c4b9a497561faa54483d9b228a3cbbea,
         type: 3}
@@ -8080,6 +8341,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TallGrass (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747251343941678020, guid: 044b362375f83fc4099771cf39653520,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
@@ -8425,6 +8691,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (27)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8514,6 +8785,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -8613,7 +8889,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &840687955
 Transform:
@@ -8648,7 +8924,7 @@ Transform:
   - {fileID: 1421674100}
   - {fileID: 1959139}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &843316366 stripped
 Transform:
@@ -8741,7 +9017,7 @@ Transform:
   m_Children:
   - {fileID: 205531878}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &853336972
 PrefabInstance:
@@ -8949,10 +9225,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -9073,10 +9354,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -9096,6 +9382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -9193,6 +9484,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (16)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9282,6 +9578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6381969173092602234, guid: 174b014e6aa9eff4d9e2fc816fd10863,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2178051751836812008, guid: 174b014e6aa9eff4d9e2fc816fd10863,
         type: 3}
@@ -9487,6 +9788,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock04 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9570,6 +9876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -9715,6 +10026,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock04 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9822,6 +10138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn04 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256776317632192579, guid: ab21aa627dc0d4242b677180817f2086,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7173120002816577371, guid: ab21aa627dc0d4242b677180817f2086,
         type: 3}
@@ -9947,6 +10268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6381969173092602234, guid: 174b014e6aa9eff4d9e2fc816fd10863,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2178051751836812008, guid: 174b014e6aa9eff4d9e2fc816fd10863,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10025,6 +10351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn04 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256776317632192579, guid: ab21aa627dc0d4242b677180817f2086,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7173120002816577371, guid: ab21aa627dc0d4242b677180817f2086,
         type: 3}
@@ -10253,6 +10584,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10474,7 +10810,7 @@ Transform:
   m_Children:
   - {fileID: 1142734265}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
 --- !u!4 &1004612560 stripped
 Transform:
@@ -10493,6 +10829,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -10583,6 +10924,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -10750,7 +11096,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1065824683 stripped
 GameObject:
@@ -10916,6 +11262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11005,6 +11356,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6381969173092602234, guid: 174b014e6aa9eff4d9e2fc816fd10863,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2178051751836812008, guid: 174b014e6aa9eff4d9e2fc816fd10863,
         type: 3}
@@ -11258,7 +11614,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1149622002
 PrefabInstance:
@@ -11271,6 +11627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TallGrass (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747251343941678020, guid: 044b362375f83fc4099771cf39653520,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
@@ -11434,6 +11795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -11684,6 +12050,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock05
       objectReference: {fileID: 0}
+    - target: {fileID: 6381969173092602234, guid: 174b014e6aa9eff4d9e2fc816fd10863,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2178051751836812008, guid: 174b014e6aa9eff4d9e2fc816fd10863,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11858,10 +12229,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -11887,6 +12263,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -12078,10 +12459,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -12235,6 +12621,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WildOak01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7350918989924447736, guid: f913041faf2a6974397abf1e187a3aec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6976165338466773459, guid: f913041faf2a6974397abf1e187a3aec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12318,6 +12709,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -12472,6 +12868,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12581,6 +12982,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617883308806560967, guid: f1884f5587c8d16439bbfb8ddf9907bf,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7561598704174979012, guid: f1884f5587c8d16439bbfb8ddf9907bf,
         type: 3}
@@ -12717,6 +13123,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortGrass (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7540272039291638102, guid: 1f6ba38707f2d244cabd9b98663e4c44,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6845247823988859717, guid: 1f6ba38707f2d244cabd9b98663e4c44,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12785,6 +13196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -13124,6 +13540,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13280,7 +13701,7 @@ Transform:
   - {fileID: 1571960601}
   - {fileID: 500207170}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1428708364 stripped
 Transform:
@@ -13299,6 +13720,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891103715111116693, guid: c4b9a497561faa54483d9b228a3cbbea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3582671103396229065, guid: c4b9a497561faa54483d9b228a3cbbea,
         type: 3}
@@ -13510,6 +13936,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ShortGrass
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540272039291638102, guid: 1f6ba38707f2d244cabd9b98663e4c44,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6845247823988859717, guid: 1f6ba38707f2d244cabd9b98663e4c44,
         type: 3}
@@ -13762,10 +14193,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -13964,6 +14400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rock04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
@@ -14175,10 +14616,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -14350,6 +14796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Grass Group
       objectReference: {fileID: 0}
+    - target: {fileID: 8642850695650494791, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8642850695650494808, guid: 355708c6990b7e4478668831041cd48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14404,6 +14855,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895669725117715972, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895669724269413195, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895669724341888916, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895669724022452223, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 355708c6990b7e4478668831041cd48a, type: 3}
@@ -14545,7 +15016,7 @@ Transform:
   m_Children:
   - {fileID: 1075981960}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
 --- !u!135 &1582011788
 SphereCollider:
@@ -14711,6 +15182,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.1961005
       objectReference: {fileID: 0}
+    - target: {fileID: 4612764640692951514, guid: 0caced515f8c92946abf0796679f9b6d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0caced515f8c92946abf0796679f9b6d, type: 3}
 --- !u!1 &1631314730 stripped
@@ -14752,6 +15228,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -14863,6 +15344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14952,6 +15438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TallGrass (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2747251343941678020, guid: 044b362375f83fc4099771cf39653520,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1187660928281035223, guid: 044b362375f83fc4099771cf39653520,
         type: 3}
@@ -15137,10 +15628,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -15188,6 +15684,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WildOak01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350918989924447736, guid: f913041faf2a6974397abf1e187a3aec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6976165338466773459, guid: f913041faf2a6974397abf1e187a3aec,
         type: 3}
@@ -15272,6 +15773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -15464,6 +15970,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15581,6 +16092,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -15865,6 +16381,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock04 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149327659012708232, guid: b3648fa97f6e9f04690ed8948ad4adc0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1381387144320673907, guid: b3648fa97f6e9f04690ed8948ad4adc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15948,6 +16469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WildOak01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350918989924447736, guid: f913041faf2a6974397abf1e187a3aec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6976165338466773459, guid: f913041faf2a6974397abf1e187a3aec,
         type: 3}
@@ -16258,10 +16784,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -16388,10 +16919,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -16411,6 +16947,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WildOak01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350918989924447736, guid: f913041faf2a6974397abf1e187a3aec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6976165338466773459, guid: f913041faf2a6974397abf1e187a3aec,
         type: 3}
@@ -16534,6 +17075,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WildOak01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7350918989924447736, guid: f913041faf2a6974397abf1e187a3aec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6976165338466773459, guid: f913041faf2a6974397abf1e187a3aec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16617,6 +17163,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn04 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256776317632192579, guid: ab21aa627dc0d4242b677180817f2086,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7173120002816577371, guid: ab21aa627dc0d4242b677180817f2086,
         type: 3}
@@ -16771,8 +17322,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 1
-  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 0.9433962, g: 0.9340994, b: 0.734247, a: 1}
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -16833,7 +17384,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1876419990 stripped
 GameObject:
@@ -17056,7 +17607,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -107.575005, z: 0}
 --- !u!114 &1890801700
 MonoBehaviour:
@@ -17114,6 +17665,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -17227,6 +17783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17316,6 +17877,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -17407,6 +17973,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (18)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17497,6 +18068,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (34)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17586,6 +18162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
@@ -17823,10 +18404,15 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 37
       objectReference: {fileID: 0}
+    - target: {fileID: 2169708030991438908, guid: 25ce8922e566cd14581defe7a01dfae1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 2169708030991438911, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
       propertyPath: multiplier
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4208062634570899797, guid: 25ce8922e566cd14581defe7a01dfae1,
         type: 3}
@@ -17906,6 +18492,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock05 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6381969173092602234, guid: 174b014e6aa9eff4d9e2fc816fd10863,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2178051751836812008, guid: 174b014e6aa9eff4d9e2fc816fd10863,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17979,6 +18570,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -18069,6 +18665,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WildOak01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350918989924447736, guid: f913041faf2a6974397abf1e187a3aec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6976165338466773459, guid: f913041faf2a6974397abf1e187a3aec,
         type: 3}
@@ -18182,6 +18783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tall Grass Group (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8642850695650494791, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8642850695650494808, guid: 355708c6990b7e4478668831041cd48a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18237,6 +18843,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5895669725117715972, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895669724269413195, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895669724341888916, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895669724022452223, guid: 355708c6990b7e4478668831041cd48a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 355708c6990b7e4478668831041cd48a, type: 3}
 --- !u!1001 &2010228840
@@ -18250,6 +18876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -18367,6 +18998,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2896879314928471068, guid: 1eaf7b934a394e848aabc848d91c8319,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5691987720948310487, guid: 1eaf7b934a394e848aabc848d91c8319,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18450,6 +19086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree_Hawthorn04 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256776317632192579, guid: ab21aa627dc0d4242b677180817f2086,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7173120002816577371, guid: ab21aa627dc0d4242b677180817f2086,
         type: 3}
@@ -18796,6 +19437,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_Hawthorn03
       objectReference: {fileID: 0}
+    - target: {fileID: 5891103715111116693, guid: c4b9a497561faa54483d9b228a3cbbea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3582671103396229065, guid: c4b9a497561faa54483d9b228a3cbbea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18879,6 +19525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ShortGrass (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540272039291638102, guid: 1f6ba38707f2d244cabd9b98663e4c44,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6845247823988859717, guid: 1f6ba38707f2d244cabd9b98663e4c44,
         type: 3}
@@ -19009,6 +19660,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree (15)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19098,6 +19754,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
@@ -19242,6 +19903,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeadTree (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6d88f67a768a3654db451a0e49f6f508,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d88f67a768a3654db451a0e49f6f508,
         type: 3}
