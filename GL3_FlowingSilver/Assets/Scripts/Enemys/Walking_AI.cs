@@ -167,12 +167,20 @@ public class Walking_AI : MonoBehaviour
         Invoke("GivesUp", 3);
         _navMeshAgent.SetDestination(transform.position);
         if (anim != null)
-            anim.SetTrigger("Idle");
+        {
+            anim.SetBool("isWalking", false);
+            anim.SetBool("isIdle", true);
+        }
 
     }
 
     void GivesUp()
     {
         lookingForPlayer = false;
+        if (anim != null)
+        {
+            anim.SetBool("isWalking", true);
+            anim.SetBool("isIdle", false);
+        }
     }
 }
