@@ -9,6 +9,9 @@ This is a continued repository project made with Unity after the original one on
 
 December 10, 2019:
 
-> This project is now complete for our game lab 3 semester!
+This project is now in a complete state to our game lab 3 semester. 
+Thanks to everyone in the team who participated in the development and reach the project's current state!
+
+---
 
 Check out the project's release page: https://froztyseven.itch.io/flowingsilver
